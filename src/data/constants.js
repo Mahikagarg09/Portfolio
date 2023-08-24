@@ -184,7 +184,7 @@ export const projects = [
     id: 1,
     title: "SocioAid",
     description:
-      "SociaAid provides a range of features to help individuals with social anxiety and lack of confidence.",
+      "SociaAid provides a range of features to help individuals with social anxiety and confidence.",
     image:
       "https://devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2F7da2bfcbc2c04d75b216de0b5c18afa3%2Fprojects%2Faa0bd61c453b42129dc47cc448f9976d%2Fe63cd0b0-eb8f-4494-9294-7c192e446f91.jpeg&w=1440&q=75",
     tags: [
