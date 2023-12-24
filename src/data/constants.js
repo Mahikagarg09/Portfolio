@@ -7,7 +7,7 @@ export const Bio = {
     "I am an enthusiastic and adaptable individual, driven to embrace fresh challenges. Committed to excellence, I thrive on continuous learning. Possessing optimism and a hunger for growth, I'm poised to create impactful contributions. My curiosity extends to emerging technologies, and I relish collaborative experiences that expand my skills and horizons.",
   github: "https://github.com/Mahikagarg09",
   resume:
-    "https://drive.google.com/file/d/1VunG0X94dQwmCE-44TyVlEpm-1KCJ6oS/view?usp=sharing",
+    "https://drive.google.com/file/d/1xz1wD7Gl1z4dGH-kze7go9zFr6Lo6lTo/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mahikagarg0923/",
   twitter: "https://twitter.com/mahikagarg_23",
 };
@@ -130,7 +130,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://cdn3.mydukaan.io/app/image/200x200/?url=https://dukaan-core-file-service.s3.ap-southeast-1.amazonaws.com/upload_file_service/c1d6519d-c3c7-4652-9bfb-a9895675a771/untitled-design-51-1.png",
+    img: "https://pbs.twimg.com/profile_images/1570133618248552448/Jtq08DNS_400x400.jpg",
     role: "SDE  Intern",
     company: "Zaridhar",
     date: "Nov 2022 - Dec 2022",
@@ -143,6 +143,25 @@ export const experiences = [
       "JavaScript",
     ],
     doc: "https://drive.google.com/file/d/1p5LqQeuoPy7VFhx3IDhqoRUoD3IUVwxj/view?usp=sharing",
+  },
+  {
+    id: 1,
+    img: "https://www.gwdcollective.com/images/logo-white.png",
+    role: "Full Stack Web Developer Intern",
+    company: "GWD Collective LLP",
+    date: "Sep 2023 - Dec 2023",
+    desc: "Collaborate with senior team to design, develop, and troubleshoot web applications, while supporting project delivery through client presentations and staying abreast of industry trends.",
+    skills: [
+      "React JS",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "React-three-fiber",
+      "Three.js",
+      "Wordpress"
+    ],
+    doc: "https://drive.google.com/file/d/1O3mQeSoMd032GFTTE54o1X7ZJohUIhYZ/view?usp=sharing",
   },
   
 ];
