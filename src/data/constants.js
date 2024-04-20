@@ -7,7 +7,7 @@ export const Bio = {
     "I am an enthusiastic and adaptable individual, driven to embrace fresh challenges. Committed to excellence, I thrive on continuous learning. Possessing optimism and a hunger for growth, I'm poised to create impactful contributions. My curiosity extends to emerging technologies, and I relish collaborative experiences that expand my skills and horizons.",
   github: "https://github.com/Mahikagarg09",
   resume:
-    "https://drive.google.com/file/d/1xz1wD7Gl1z4dGH-kze7go9zFr6Lo6lTo/view?usp=sharing",
+    "https://drive.google.com/file/d/17zIG_x9NA2U626S4BStDMxAvOJqu4gfU/view",
   linkedin: "https://www.linkedin.com/in/mahikagarg0923/",
   twitter: "https://twitter.com/mahikagarg_23",
 };
@@ -173,7 +173,7 @@ export const education = [
     school: "Maharaja Agrasen Institute of Technology, Delhi",
     date: "2021 - 2025",
     grade: "9.4 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Information Technology at Maharaja Agrasen Institute of Technology, Delhi. I have completed 4 semesters and have a CGPA of 9.4. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming and Database Management Systems.",
+    desc: "I am currently pursuing a Bachelor's degree in Information Technology at Maharaja Agrasen Institute of Technology, Delhi, having a CGPA of 9.4. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming and Database Management Systems.",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
 ];
@@ -266,6 +266,23 @@ export const projects = [
     ],
     github: "https://github.com/Mahikagarg09/TextUtils",
     webapp: "https://utilstxt.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "TalkTrek",
+    description:
+      "TalkTrek is a dynamic chatting website.",
+    image:
+      "https://github.com/Mahikagarg09/TalkTrek/assets/98404416/ad498370-b7df-4375-9706-523bf956cb66",
+    tags: [
+      "React Js",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "Firebase"
+    ],
+    github: "https://github.com/Mahikagarg09/TextUtils",
+    webapp: "https://talk-trek-ten.vercel.app/",
   },
   
 ];
