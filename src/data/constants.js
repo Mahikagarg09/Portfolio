@@ -236,8 +236,25 @@ export const projects = [
     github: "https://github.com/Mahikagarg09/Dashboard-user",
     webapp: "https://user-dashboard-ten-rho.vercel.app/",
   },
-  {
+    {
     id: 3,
+    title: "TalkTrek",
+    description:
+      "TalkTrek is a dynamic chatting website.",
+    image:
+      "https://github.com/Mahikagarg09/TalkTrek/assets/98404416/ad498370-b7df-4375-9706-523bf956cb66",
+    tags: [
+      "React Js",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "Firebase"
+    ],
+    github: "https://github.com/Mahikagarg09/talktrek",
+    webapp: "https://talk-trek-ten.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Weather-Radar",
     description:
       "WeatherRdar is a web application designed to show the  current weather of any place.",
@@ -252,7 +269,7 @@ export const projects = [
     webapp: "https://radarweather.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "TextUtils",
     description:
       "TextUtils is a word counter and a character containing utility which can be used to manipulate the text ",
@@ -266,23 +283,6 @@ export const projects = [
     ],
     github: "https://github.com/Mahikagarg09/TextUtils",
     webapp: "https://utilstxt.netlify.app/",
-  },
-  {
-    id: 5,
-    title: "TalkTrek",
-    description:
-      "TalkTrek is a dynamic chatting website.",
-    image:
-      "https://github.com/Mahikagarg09/TalkTrek/assets/98404416/ad498370-b7df-4375-9706-523bf956cb66",
-    tags: [
-      "React Js",
-      "HTML",
-      "CSS",
-      "TailwindCSS",
-      "Firebase"
-    ],
-    github: "https://github.com/Mahikagarg09/TextUtils",
-    webapp: "https://talk-trek-ten.vercel.app/",
   },
   
 ];
