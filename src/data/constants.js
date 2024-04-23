@@ -197,7 +197,7 @@ export const projects = [
       "Replit"
     ],
     github: "https://github.com/Mahikagarg09/KwikFood",
-    webapp: "https://kwikfood.2802aditya.repl.co/",
+    webapp: "https://www.youtube.com/watch?v=gg5Y4RZiO-8",
   },
   {
     id: 1,
