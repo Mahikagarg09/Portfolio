@@ -8,7 +8,7 @@ export const Bio = {
     "I am an enthusiastic and adaptable individual, driven to embrace fresh challenges. Committed to excellence, I thrive on continuous learning. Possessing optimism and a hunger for growth, I'm poised to create impactful contributions. My curiosity extends to emerging technologies, and I relish collaborative experiences that expand my skills and horizons.",
   github: "https://github.com/Mahikagarg09",
   resume:
-    "https://drive.google.com/file/d/1xz1wD7Gl1z4dGH-kze7go9zFr6Lo6lTo/view?usp=sharing",
+    "https://drive.google.com/file/d/17zIG_x9NA2U626S4BStDMxAvOJqu4gfU/view",
   linkedin: "https://www.linkedin.com/in/mahikagarg0923/",
   twitter: "https://twitter.com/mahikagarg_23",
 };
@@ -174,7 +174,7 @@ export const education = [
     school: "Maharaja Agrasen Institute of Technology, Delhi",
     date: "2021 - 2025",
     grade: "9.4 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Information Technology at Maharaja Agrasen Institute of Technology, Delhi. I have completed 4 semesters and have a CGPA of 9.4. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming and Database Management Systems.",
+    desc: "I am currently pursuing a Bachelor's degree in Information Technology at Maharaja Agrasen Institute of Technology, Delhi, having a CGPA of 9.4. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming and Database Management Systems.",
     degree: "Bachelor of Technology - BTech, Information Technology",
   },
 ];
@@ -236,7 +236,7 @@ export const projects = [
       "Replit"
     ],
     github: "https://github.com/Mahikagarg09/KwikFood",
-    webapp: "https://kwikfood.2802aditya.repl.co/",
+    webapp: "https://www.youtube.com/watch?v=gg5Y4RZiO-8",
   },
   {
     id: 3,
@@ -327,7 +327,7 @@ export const projects = [
     webapp: "https://radarweather.netlify.app/",
   },
   {
-    id: 8,
+    id: 4,
     title: "TextUtils",
     description:
       "TextUtils is a word counter and a character containing utility which can be used to manipulate the text ",
