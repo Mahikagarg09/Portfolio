@@ -186,9 +186,11 @@ const ProjectCards = ({ project, setOpenModal }) => {
                 ))}
             </Members> */}
             <ButtonsContainer>
+                {project.github &&
                 <Buttons href={project.github} target="_blank" rel="noopener noreferrer">
                     GitHub
                 </Buttons>
+        }
                 {project.webapp &&
                     <Buttons href={project.webapp} target="_blank" rel="noopener noreferrer">
                         Demo

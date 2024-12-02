@@ -1,3 +1,4 @@
+import CodinEdu from "../images/CodinEdu.png"
 export const Bio = {
   name: "Mahika Garg",
   roles: [
@@ -181,6 +182,44 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "CodinEdu",
+    description:
+      "CodinEdu is an online courses portal,integrating interactive 3D Model Experience.",
+    image:CodinEdu,      
+    tags: [
+      "React Js",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "React-three-fiber",
+      "JavaScript",
+      "Three.js",
+      "Wordpress",
+      "Hostinger"
+    ],
+    webapp: "https://codinedu.com/",
+  },
+  {
+    id: 1,
+    title: "TalkTrek",
+    description:" TalkTrek is a real-time chat application with seamless front-end interactivity, ensuring a responsive user experience",
+    image:"https://private-user-images.githubusercontent.com/98404416/324164395-ff8b5c05-0264-487c-8a98-c888a89baa76.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNjk1NzMsIm5iZiI6MTczMzE2OTI3MywicGF0aCI6Ii85ODQwNDQxNi8zMjQxNjQzOTUtZmY4YjVjMDUtMDI2NC00ODdjLThhOTgtYzg4OGE4OWJhYTc2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAyVDE5NTQzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYwNmU2ZDUyNmQwNWM4YWEyZDQyZjg3OWE2M2NhMTY1NWRkZGYzZmExOGExMzFmODY5OGM5ZmZiOGJmOWM1NGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.skirUTrCyW_IANsqplH7Wk3NKjWC6_hS9cnn1HMS-8Q",      
+    tags: [
+      "React Js",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "React-three-fiber",
+      "JavaScript",
+      "Three.js",
+      "Wordpress",
+      "Hostinger"
+    ],
+    github:"https://github.com/Mahikagarg09/TalkTrek",
+    webapp: "http://talk-trek-ten.vercel.app/",
+  },
+  {
+    id: 2,
     title: "KwikFood",
     description:
       "KwikFood is a online canteen portal, which is a web-based platform built.",
@@ -200,7 +239,26 @@ export const projects = [
     webapp: "https://kwikfood.2802aditya.repl.co/",
   },
   {
-    id: 1,
+    id: 3,
+    title: "Customer Support",
+    description:
+      "It is a customer support messaging website which aims to handle high volume of customer inquiries.",
+    image:
+      "https://private-user-images.githubusercontent.com/98404416/378067922-e96bd5c5-78da-497c-a30d-46d44171fc38.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNzAxMzEsIm5iZiI6MTczMzE2OTgzMSwicGF0aCI6Ii85ODQwNDQxNi8zNzgwNjc5MjItZTk2YmQ1YzUtNzhkYS00OTdjLWEzMGQtNDZkNDQxNzFmYzM4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAyVDIwMDM1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZlNTdjNjQxZjM1ZmIzNWU4ZjU1NDI2OWE4OWI4ZmViNWJmNTYwNDg4MDU0MGEwMTdiYzJiNzUzOTYwNGZhZDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.sMhSu3tLcVafyEwwMT1LJ1HLLalg0snKe8khJDwYaSg",
+    tags: [
+      "React Js",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "MongoDB",
+      "NodeJS",
+      "Socket.io",
+    ],
+    github: "https://github.com/Mahikagarg09/customer-support",
+    webapp: "https://customer-support-messaging.vercel.app/",
+  },
+  {
+    id: 4,
     title: "SocioAid",
     description:
       "SociaAid provides a range of features to help individuals with social anxiety and confidence.",
@@ -218,7 +276,7 @@ export const projects = [
     github: "https://github.com/Mahikagarg09/SociaAid",
   },
   {
-    id: 2,
+    id: 5,
     title: "User-Dasboard",
     description:
       "A dynamic user Dashboard using Nextjs and MongoDB.",
@@ -237,7 +295,24 @@ export const projects = [
     webapp: "https://user-dashboard-ten-rho.vercel.app/",
   },
   {
-    id: 3,
+    id: 6,
+    title: "Search Github User",
+    description:
+      "It uses Angular 14+ to make a single-page application (SPA) that takes a GitHub username as input and displays the public Github repositories belonging to the user.",
+    image:
+      "https://private-user-images.githubusercontent.com/98404416/391696044-f25f8df1-2bfb-4700-be01-2678cc7cc8f9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNzA0NjgsIm5iZiI6MTczMzE3MDE2OCwicGF0aCI6Ii85ODQwNDQxNi8zOTE2OTYwNDQtZjI1ZjhkZjEtMmJmYi00NzAwLWJlMDEtMjY3OGNjN2NjOGY5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAyVDIwMDkyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQyOThlYmM1OGU3NDhlMmEyYjZjNzY2NTRlYmEzZTk3YWFhNTlhMTBjYTlmYjI0NTU4OTFjMzNkZmZlNzM3YzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.EXXfehDXY2i_-wPP2WcjfzeUIeW-CtrZktSIfqd2n3Y",
+    tags: [
+      "Angular Js",
+      "HTML",
+      "CSS",
+      "TailwindCSS",
+      "GithubAPI"
+    ],
+    github: "https://github.com/Mahikagarg09/Search-GitHub-user",
+    webapp: "https://search-git-hub-user.vercel.app/",
+  },
+  {
+    id: 7,
     title: "Weather-Radar",
     description:
       "WeatherRdar is a web application designed to show the  current weather of any place.",
@@ -252,7 +327,7 @@ export const projects = [
     webapp: "https://radarweather.netlify.app/",
   },
   {
-    id: 4,
+    id: 8,
     title: "TextUtils",
     description:
       "TextUtils is a word counter and a character containing utility which can be used to manipulate the text ",
