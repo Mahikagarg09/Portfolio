@@ -104,6 +104,11 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzitJRH6wQ_EJoyuvm-abT4GT3V5jYFDcJ8w",
       },
+      {
+        name: "Python",
+        image:
+          "https://www.citypng.com/public/uploads/preview/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn.png",
+      },
     ],
   },
   {
@@ -112,17 +117,17 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://gimgs2.nohat.cc/thumb/f/350/git-logo-transparent-png-stickpng--comdlpng6957549.jpg",
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6DXuvit57V1DmjnlLcwst4O-sTL5D37gIQ&s",
       },
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png?f=webp&w=512",
       },
     ],
   },
@@ -147,7 +152,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://www.gwdcollective.com/images/logo-white.png",
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQFy9cZqUM3gLg/company-logo_200_200/company-logo_200_200/0/1693238801631?e=1753315200&v=beta&t=qkIHZHe67Fc1nEq5YxV_22Alj2HG4BXyro2ZDL3ShsY",
     role: "Full Stack Web Developer Intern",
     company: "GWD Collective LLP",
     date: "Sep 2023 - Dec 2023",
@@ -163,7 +168,24 @@ export const experiences = [
       "Wordpress"
     ],
     doc: "https://drive.google.com/file/d/1O3mQeSoMd032GFTTE54o1X7ZJohUIhYZ/view?usp=sharing",
-  },
+  },{
+  
+    id: 2,
+    img: "https://www.zs.com/content/dam/images/illustrations/ZS%20Logo%20SPOT.svg",
+    role: "Technology Solutions Associate Intern",
+    company: "ZS Associates",
+    date: "Feb 2025 - July 2025",
+    desc: "Gaining hands-on experience in developing and delivering technology-driven solutions tailored to client needs.",
+    skills: [
+      "Python",
+      "MySQL",
+      "AWS",
+      "Power BI",
+      "Tableau",
+      "MS Excel"
+    ],
+    // doc: "https://drive.google.com/file/d/1O3mQeSoMd032GFTTE54o1X7ZJohUIhYZ/view?usp=sharing",
+  }
   
 ];
 
@@ -188,8 +210,6 @@ export const projects = [
     image:CodinEdu,      
     tags: [
       "React Js",
-      "HTML",
-      "CSS",
       "Tailwind CSS",
       "React-three-fiber",
       "JavaScript",
@@ -203,17 +223,13 @@ export const projects = [
     id: 1,
     title: "TalkTrek",
     description:" TalkTrek is a real-time chat application with seamless front-end interactivity, ensuring a responsive user experience",
-    image:"https://private-user-images.githubusercontent.com/98404416/324164395-ff8b5c05-0264-487c-8a98-c888a89baa76.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNjk1NzMsIm5iZiI6MTczMzE2OTI3MywicGF0aCI6Ii85ODQwNDQxNi8zMjQxNjQzOTUtZmY4YjVjMDUtMDI2NC00ODdjLThhOTgtYzg4OGE4OWJhYTc2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAyVDE5NTQzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYwNmU2ZDUyNmQwNWM4YWEyZDQyZjg3OWE2M2NhMTY1NWRkZGYzZmExOGExMzFmODY5OGM5ZmZiOGJmOWM1NGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.skirUTrCyW_IANsqplH7Wk3NKjWC6_hS9cnn1HMS-8Q",      
+    image:"https://private-user-images.githubusercontent.com/98404416/324164395-ff8b5c05-0264-487c-8a98-c888a89baa76.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDgwODA4NzIsIm5iZiI6MTc0ODA4MDU3MiwicGF0aCI6Ii85ODQwNDQxNi8zMjQxNjQzOTUtZmY4YjVjMDUtMDI2NC00ODdjLThhOTgtYzg4OGE4OWJhYTc2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTI0VDA5NTYxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZkNjA0N2ZkZWVhNDgwMzYxMmNmZTE2NTgyMzQ1OTIzYjhhYTY1NDdiZTNmZmNkNGExMTM5OWMyY2JjYTAwODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4rzsFxVsJI7akfl6lQd6fj5TXqxJ6A7VxYd9jy1hgvg",      
     tags: [
       "React Js",
       "HTML",
       "CSS",
       "Tailwind CSS",
-      "React-three-fiber",
-      "JavaScript",
-      "Three.js",
-      "Wordpress",
-      "Hostinger"
+      "firebase"      
     ],
     github:"https://github.com/Mahikagarg09/TalkTrek",
     webapp: "http://talk-trek-ten.vercel.app/",
@@ -244,7 +260,7 @@ export const projects = [
     description:
       "It is a customer support messaging website which aims to handle high volume of customer inquiries.",
     image:
-      "https://private-user-images.githubusercontent.com/98404416/378067922-e96bd5c5-78da-497c-a30d-46d44171fc38.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNzAxMzEsIm5iZiI6MTczMzE2OTgzMSwicGF0aCI6Ii85ODQwNDQxNi8zNzgwNjc5MjItZTk2YmQ1YzUtNzhkYS00OTdjLWEzMGQtNDZkNDQxNzFmYzM4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAyVDIwMDM1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZlNTdjNjQxZjM1ZmIzNWU4ZjU1NDI2OWE4OWI4ZmViNWJmNTYwNDg4MDU0MGEwMTdiYzJiNzUzOTYwNGZhZDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.sMhSu3tLcVafyEwwMT1LJ1HLLalg0snKe8khJDwYaSg",
+      "https://private-user-images.githubusercontent.com/98404416/378067904-18800a28-50cb-4445-b35b-e894d16f1f97.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDgwODEwMDUsIm5iZiI6MTc0ODA4MDcwNSwicGF0aCI6Ii85ODQwNDQxNi8zNzgwNjc5MDQtMTg4MDBhMjgtNTBjYi00NDQ1LWIzNWItZTg5NGQxNmYxZjk3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTI0VDA5NTgyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThlN2ZlNWZlZDc1MjdhYzM0MzUwZTQxZjgzNzMzNmE1ODNmZjNkYWVjOWIwMWU1MTYyM2EwZTkxNzcyZWU4OGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qWl36gVH_sYji1sV6jz9CEqqdtCROH4ato-CkEtkkHY",
     tags: [
       "React Js",
       "HTML",
@@ -300,7 +316,7 @@ export const projects = [
     description:
       "It uses Angular 14+ to make a single-page application (SPA) that takes a GitHub username as input and displays the public Github repositories belonging to the user.",
     image:
-      "https://private-user-images.githubusercontent.com/98404416/391696044-f25f8df1-2bfb-4700-be01-2678cc7cc8f9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzMxNzA0NjgsIm5iZiI6MTczMzE3MDE2OCwicGF0aCI6Ii85ODQwNDQxNi8zOTE2OTYwNDQtZjI1ZjhkZjEtMmJmYi00NzAwLWJlMDEtMjY3OGNjN2NjOGY5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjAyVDIwMDkyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQyOThlYmM1OGU3NDhlMmEyYjZjNzY2NTRlYmEzZTk3YWFhNTlhMTBjYTlmYjI0NTU4OTFjMzNkZmZlNzM3YzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.EXXfehDXY2i_-wPP2WcjfzeUIeW-CtrZktSIfqd2n3Y",
+      "https://private-user-images.githubusercontent.com/98404416/391696044-f25f8df1-2bfb-4700-be01-2678cc7cc8f9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDgwODEwNzIsIm5iZiI6MTc0ODA4MDc3MiwicGF0aCI6Ii85ODQwNDQxNi8zOTE2OTYwNDQtZjI1ZjhkZjEtMmJmYi00NzAwLWJlMDEtMjY3OGNjN2NjOGY5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTI0VDA5NTkzMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0MGI4YmQ4YTFjZjlkZDljZGE3ZjE2Y2YyZmQyYzBmNmMzMGMyNjk5YzcxYzZjN2JkZDg2MjZhZmY4NDY2ODQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wrxsvNHXIFISkzdU1VrMIjzujMB9OogscA9nokFhkD4",
     tags: [
       "Angular Js",
       "HTML",

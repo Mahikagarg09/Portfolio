@@ -12,6 +12,19 @@ const Document = styled.img`
         opacity: 0.8;
     }
 `
+const Button = styled.button`
+    display: none;
+    width: 100%;
+    padding: 10px;
+    background-color: ${({ theme }) => theme.white};
+    color: ${({ theme }) => theme.text_black};
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+`
 
 const Description = styled.div`
     width: 100%;
@@ -175,11 +188,14 @@ const ExperienceCard = ({ experience }) => {
                 }
             </Description>
 
-            {/* {experience.doc &&
-                    <a href={experience.doc} target="new">
-                        <Document src={experience.doc} />
-                    </a>
-            } */}
+            {experience.doc &&
+            <Button href={experience.doc} target="_blank" rel="noopener noreferrer">
+                                Cetificate
+                            </Button>
+                    // <a href={experience.doc} target="new">
+                    //     <Button src={experience.doc} />
+                    // </a>
+            }
         </Card>
     )
 }
