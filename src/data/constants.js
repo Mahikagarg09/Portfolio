@@ -12,7 +12,7 @@ export const Bio = {
     "I am an enthusiastic and adaptable individual, driven to embrace fresh challenges. Committed to excellence, I thrive on continuous learning. Possessing optimism and a hunger for growth, I'm poised to create impactful contributions. My curiosity extends to emerging technologies, and I relish collaborative experiences that expand my skills and horizons.",
   github: "https://github.com/Mahikagarg09",
   resume:
-    "https://drive.google.com/file/d/17zIG_x9NA2U626S4BStDMxAvOJqu4gfU/view",
+    "https://drive.google.com/file/d/1qRYGX3nmUBmjZo_u2II2kQvdJAuhQwSd/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mahikagarg0923/",
   twitter: "https://twitter.com/mahikagarg_23",
 };
