@@ -1,4 +1,8 @@
 import CodinEdu from "../images/CodinEdu.png"
+import TalkTrek from "../images/TalkTrek.png"
+import CS from "../images/Customer_Support.png"
+import SearchUser from "../images/Search_Github.png"
+
 export const Bio = {
   name: "Mahika Garg",
   roles: [
@@ -223,7 +227,7 @@ export const projects = [
     id: 1,
     title: "TalkTrek",
     description:" TalkTrek is a real-time chat application with seamless front-end interactivity, ensuring a responsive user experience",
-    image:"https://private-user-images.githubusercontent.com/98404416/324164395-ff8b5c05-0264-487c-8a98-c888a89baa76.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDgwODA4NzIsIm5iZiI6MTc0ODA4MDU3MiwicGF0aCI6Ii85ODQwNDQxNi8zMjQxNjQzOTUtZmY4YjVjMDUtMDI2NC00ODdjLThhOTgtYzg4OGE4OWJhYTc2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTI0VDA5NTYxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZkNjA0N2ZkZWVhNDgwMzYxMmNmZTE2NTgyMzQ1OTIzYjhhYTY1NDdiZTNmZmNkNGExMTM5OWMyY2JjYTAwODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4rzsFxVsJI7akfl6lQd6fj5TXqxJ6A7VxYd9jy1hgvg",      
+    image: TalkTrek,
     tags: [
       "React Js",
       "HTML",
@@ -260,7 +264,7 @@ export const projects = [
     description:
       "It is a customer support messaging website which aims to handle high volume of customer inquiries.",
     image:
-      "https://private-user-images.githubusercontent.com/98404416/378067904-18800a28-50cb-4445-b35b-e894d16f1f97.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDgwODEwMDUsIm5iZiI6MTc0ODA4MDcwNSwicGF0aCI6Ii85ODQwNDQxNi8zNzgwNjc5MDQtMTg4MDBhMjgtNTBjYi00NDQ1LWIzNWItZTg5NGQxNmYxZjk3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTI0VDA5NTgyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThlN2ZlNWZlZDc1MjdhYzM0MzUwZTQxZjgzNzMzNmE1ODNmZjNkYWVjOWIwMWU1MTYyM2EwZTkxNzcyZWU4OGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qWl36gVH_sYji1sV6jz9CEqqdtCROH4ato-CkEtkkHY",
+      CS,
     tags: [
       "React Js",
       "HTML",
@@ -315,8 +319,7 @@ export const projects = [
     title: "Search Github User",
     description:
       "It uses Angular 14+ to make a single-page application (SPA) that takes a GitHub username as input and displays the public Github repositories belonging to the user.",
-    image:
-      "https://private-user-images.githubusercontent.com/98404416/391696044-f25f8df1-2bfb-4700-be01-2678cc7cc8f9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDgwODEwNzIsIm5iZiI6MTc0ODA4MDc3MiwicGF0aCI6Ii85ODQwNDQxNi8zOTE2OTYwNDQtZjI1ZjhkZjEtMmJmYi00NzAwLWJlMDEtMjY3OGNjN2NjOGY5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA1MjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTI0VDA5NTkzMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTU0MGI4YmQ4YTFjZjlkZDljZGE3ZjE2Y2YyZmQyYzBmNmMzMGMyNjk5YzcxYzZjN2JkZDg2MjZhZmY4NDY2ODQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.wrxsvNHXIFISkzdU1VrMIjzujMB9OogscA9nokFhkD4",
+    image: SearchUser,
     tags: [
       "Angular Js",
       "HTML",
